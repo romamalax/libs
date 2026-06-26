@@ -1,4 +1,4 @@
-module github.com/romamalax/libs
+module github.com/romamalax/libs/metrics
 
 go 1.25.4
 

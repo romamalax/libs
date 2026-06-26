@@ -1,6 +1,6 @@
 package sspauth
 
-import "libs/convert"
+import "github.com/romamalax/libs/convert"
 
 const lenAuthCode = 6
 
