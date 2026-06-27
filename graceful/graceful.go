@@ -3,8 +3,9 @@ package graceful
 import (
 	"context"
 	"fmt"
-	"statter/pkg/logger"
 	"time"
+
+	"github.com/romamalax/libs/logger"
 )
 
 type Service interface {
