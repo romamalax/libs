@@ -1,6 +1,6 @@
 module github.com/romamalax/libs/metrics
 
-go 1.25.4
+go 1.26.1
 
 require github.com/VictoriaMetrics/metrics v1.44.0
 
