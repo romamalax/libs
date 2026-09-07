@@ -29,7 +29,7 @@ func (a *SSPAuth) Code(sspID int) int {
 
 func (a *SSPAuth) BuildReqURL(baseURL string, sspID int) string {
 	baseURL = strings.TrimRight(baseURL, "/")
-	return fmt.Sprintf("%s?sspid=%d&auth=%0*d", baseURL, sspID, AuthCodeLen, a.Code(sspID))
+	return fmt.Sprintf("%s?id=%d&auth=%0*d", baseURL, sspID, AuthCodeLen, a.Code(sspID))
 }
 
 func (a *SSPAuth) Validate(sspID int, code []byte) bool {
